@@ -1,0 +1,168 @@
+const kb = require('./buttons-keybord')
+
+module.exports = {
+
+start:[
+  [kb.start.full],
+  [kb.start.light],
+],
+
+fp:[
+  [kb.fp.fppod],
+  [kb.fp.fpvclin],
+  [kb.fp.fpprepar],
+  [kb.fp.fpprocedur],
+  [kb.start.back_start]
+],
+fp_b:[
+  [kb.fp_b.back_fp]
+],
+fp_pod:[
+  [kb.fp_pod.fsxema],
+  [kb.fp_pod.fdieta],
+  //[kb.fp_pod.fzp],
+  [kb.fp_pod.flivevar],
+  [kb.fp_pod.fpered],
+  [kb.fp_pod.fzav],
+  [kb.fp_b.back_fp]
+],
+fp_pod_back:[
+  [kb.fp_pod_back.back_fp_pod]
+],
+
+fb_vclinic:[
+  [kb.fp_vclinic.dogovor],
+  [kb.fp_vclinic.day1],
+  [kb.fp_vclinic.day2],
+  [kb.fp_vclinic.day3],
+  [kb.fp_vclinic.day4],
+  [kb.fp_vclinic.day5],
+  [kb.fp_vclinic.day6],
+  [kb.fp_vclinic.day7],
+  [kb.fp_vclinic.day8],
+  [kb.fp_vclinic.day9],
+  [kb.fp_vclinic.day10],
+  [kb.fp_vclinic.day11],
+  [kb.fp_vclinic.day12],
+  [kb.fp_vclinic.fvkish],
+  [kb.fp_vclinic.fgrafik],
+  [kb.fp_vclinic.exit],
+  [kb.fp_vclinic.ffitness],
+  //[kb.fp_vclinic.recomends],
+  [kb.fp_b.back_fp]
+
+],
+fb_vclinic_back:[
+  [kb.fp_vclinic_back.fp_vclinic_back]
+],
+fp_prepar:[
+  [kb.fp_prepar.fprast1],
+  //[kb.fp_prepar.fpallato],
+  [kb.fp_prepar.fppsiliym],
+  [kb.fp_prepar.fpbentanit],
+  [kb.fp_prepar.fpyrosan],
+  //[kb.fp_prepar.fpgelchsbor],
+  [kb.fp_prepar.fpkoraosin],
+  [kb.fp_b.back_fp]
+],
+fp_prepar_back:[
+  [kb.fp_prepar_back.fp_prepar_back]
+],
+fp_proced:[
+  [kb.fp_proced.fduod],
+  [kb.fp_proced.fkish],
+  [kb.fp_proced.factiv],
+  [kb.fp_proced.fcrt],
+  [kb.fp_proced.fmassagves],
+  [kb.fp_proced.fpress],
+  //[kb.fp_proced.ftubaz],
+  [kb.fp_b.back_fp]
+],
+fp_proced_back:[
+  [kb.fp_proced_back.fp_proced_back]
+],
+lp:[
+  //[kb.lp.lpabout],
+  [kb.lp.lplppod],
+  [kb.lp.lpvclin],
+  [kb.lp.lpprepar],
+  [kb.lp.lpprocedur],
+  [kb.start.back_start]
+],
+lp_b:[
+  [kb.lp_b.back_lp]
+],
+lp_pod:[
+  [kb.lp_pod.lsxema],
+  [kb.lp_pod.ldieta],
+  //[kb.lp_pod.lzp],
+  [kb.lp_pod.llivevar],
+  [kb.lp_pod.lpered],
+  [kb.lp_pod.lzavclinic],
+  [kb.lp_b.back_lp]
+],
+lp_pod_back:[
+  [kb.lp_pod_back.back_lp_pod]
+],
+
+lp_vclinic:[
+  [kb.lp_vclinic.dogovor],
+  [kb.lp_vclinic.day1],
+  [kb.lp_vclinic.day2],
+  [kb.lp_vclinic.day3],
+  [kb.lp_vclinic.day4],
+  [kb.lp_vclinic.day5],
+  [kb.lp_vclinic.exit],
+  [kb.lp_vclinic.lvkish],
+  [kb.lp_vclinic.lgrafik],
+  [kb.lp_vclinic.lfitness],
+  //[kb.lp_vclinic.recomends],
+  [kb.lp_b.back_lp]
+
+],
+lp_vclinic_back:[
+  [kb.lp_vclinic_back.lp_vclinic_back]
+],
+lp_prepar:[
+  [kb.lp_prepar.lprast1],
+  //[kb.lp_prepar.lpallato],
+  [kb.lp_prepar.lppsiliym],
+  [kb.lp_prepar.lpbentanit],
+  [kb.lp_prepar.lpyrosan],
+  [kb.lp_prepar.lpgelchsbor],
+  [kb.lp_prepar.lpkoraosin],
+  [kb.lp_b.back_lp]
+],
+lp_prepar_back:[
+  [kb.lp_prepar_back.lp_prepar_back]
+],
+lp_proced:[
+  [kb.lp_proced.lduod],
+  [kb.lp_proced.lkish],
+  [kb.lp_proced.lactiv],
+  [kb.lp_proced.lcrt],
+  [kb.lp_proced.lmassagves],
+  [kb.lp_proced.lpress],
+  //[kb.lp_proced.ltubaz],
+  [kb.lp_b.back_lp]
+],
+lp_proced_back:[
+  [kb.lp_proced_back.lp_proced_back]
+],
+
+site:[
+  [kb.commands.site],
+],
+instagramm:[
+  [kb.commands.instagramm],
+],
+tg:[
+  [kb.commands.tg]
+],
+online:[
+  [kb.commands.online]
+],
+progbot:[
+  [kb.commands.progbot]
+],
+}
