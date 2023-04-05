@@ -13,14 +13,14 @@ const fs = require('fs');
 
 const bot = new TelegramBot(Evn.TOKEN, {polling: true});
 
-// bot.setMyCommands([
-//   {command: '/start', description: 'На главную'},
-//   {command: '/site', description: 'Наш сайт'},
-//   {command: '/instagramm', description: 'Instagramm'},
-//   {command: '/tg', description: 'Телеграмм канал'},
-//   {command: '/online', description: 'Онлайн запись'},
-//   {command: '/progbot', description: 'Бот программы'},
-// ])
+bot.setMyCommands([
+  {command: '/start', description: 'На главную'},
+  {command: '/site', description: 'Наш сайт'},
+  {command: '/instagramm', description: 'Instagramm'},
+  {command: '/tg', description: 'Телеграмм канал'},
+  {command: '/online', description: 'Онлайн запись'},
+  {command: '/progbot', description: 'Help бот'},
+])
 
 bot.on('callback_query', msg =>{
   const chatId = msg.message.chat.id

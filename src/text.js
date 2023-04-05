@@ -33,7 +33,7 @@ module.exports = {
     instagramm:`Instagramm`,
     tg:`Телеграмм канал`,
     online:`Онлайн-запись`,
-    progbot:`Бот программы`,
+    progbot:`Бот помощник`,
     progd:`Программа очищения по дням`,
     grafik:`График процедур`,
 
