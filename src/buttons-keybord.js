@@ -12,7 +12,7 @@ start:{
 fp:{
     fppod :{text:`${texts.pod}`,callback_data:'fppod'},
     fpvclin :{text:`${texts.vclinic}`,callback_data:'fpvclinic'},
-    //fpprepar :{text:`${texts.prepar}`,callback_data:'fpprepar'},
+    fpprepar :{text:`${texts.prepar}`,callback_data:'fpprepar'},
     fpprocedur :{text:`${texts.procedur}`,callback_data:'fpprocedur'},
     },
 fp_b:{
@@ -85,7 +85,7 @@ fp_proced_back:{
 lp:{
     lplppod :{text:`${texts.pod}`,callback_data:'lppod'},
     lpvclin :{text:`${texts.vclinic}`,callback_data:'lpvclinic'},
-    //lpprepar :{text:`${texts.prepar}`,callback_data:'lpprepar'},
+    lpprepar :{text:`${texts.prepar}`,callback_data:'lpprepar'},
     lpprocedur :{text:`${texts.procedur}`,callback_data:'lpprocedur'},
 },
 lp_b:{
