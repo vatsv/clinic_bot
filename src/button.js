@@ -10,7 +10,7 @@ start:[
 fp:[
   [kb.fp.fppod],
   [kb.fp.fpvclin],
-  [kb.fp.fpprepar],
+  //[kb.fp.fpprepar],
   [kb.fp.fpprocedur],
   [kb.start.back_start]
 ],
@@ -85,7 +85,7 @@ lp:[
   //[kb.lp.lpabout],
   [kb.lp.lplppod],
   [kb.lp.lpvclin],
-  [kb.lp.lpprepar],
+  //[kb.lp.lpprepar],
   [kb.lp.lpprocedur],
   [kb.start.back_start]
 ],
