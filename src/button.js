@@ -49,6 +49,7 @@ fb_vclinic:[
   [kb.fp_vclinic.exit],
   [kb.fp_vclinic.ffitness],
   //[kb.fp_vclinic.recomends],
+  [kb.fp_vclinic.dopuslugi],
   [kb.fp_b.back_fp]
 
 ],

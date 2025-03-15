@@ -48,6 +48,8 @@ fp_vclinic:{
     exit :{text:`${textfull.exit}`,callback_data:'exitfull'},
     ffitness:{text:`${texts.fitnesmenu}`,callback_data:'ffitness'},
     recomends :{text:`${textfull.recomends}`,callback_data:'recomendsfull'},
+    dopuslugi :{text:`${text.dopuslugi}`,callback_data:'dopuslugifull'},
+    
 
 },
 fp_vclinic_back:{
