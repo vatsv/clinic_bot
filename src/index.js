@@ -182,7 +182,7 @@ bot.on('callback_query', msg =>{
           })
            break
            case 'dopuslugifull':
-            bot.sendMessage(chatId,  `${texts.dopuslugi}`, {
+            bot.sendMessage(chatId,  `${textfull.dopuslugitext}`, {
               reply_markup:JSON.stringify({
                 inline_keyboard:keyboard.fb_vclinic_back
               })
