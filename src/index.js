@@ -182,7 +182,8 @@ bot.on('callback_query', msg =>{
           })
            break
            case 'dopuslugifull':
-            bot.sendMessage(chatId,  `${textfull.dopuslugitext}`, {
+            bot.sendMessage(chatId,  `${texts.dopuslugi}`)
+            bot.sendPhoto(chatId,fs.readFileSync(__dirname + '/img/price.png'), {
               reply_markup:JSON.stringify({
                 inline_keyboard:keyboard.fb_vclinic_back
               })
