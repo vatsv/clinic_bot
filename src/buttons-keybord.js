@@ -20,7 +20,7 @@ fp_b:{
 },
 fp_pod:{
     fsxema :{text:`${texts.sxem}`,callback_data:'fsxema'},
-    fdieta :{text:`${texts.dieta}`,callback_data:'fdieta'},
+    fdieta :{text:`${texts.dieta}`,url:'https://docs.google.com/spreadsheets/d/104i0tnFild9R07irvBcKOfOoxpb4D5EoSe3EfnsK_LY/edit?gid=1492944754#gid=1492944754'},
     //fzp :{text:`${texts.zakaz}`,callback_data:'fzp'},
     flivevar :{text:`${texts.livevar}`,callback_data:'flivevar'},
     fpered :{text:`${texts.peredconsalt}`,url:'https://docs.google.com/document/d/1phMwYpsvFIShd8Tb7Bpm5bKS5YelAMEP2310kFMA4G4/edit?tab=t.0'},
