@@ -23,8 +23,8 @@ fp_pod:{
     fdieta :{text:`${texts.dieta}`,callback_data:'fdieta'},
     //fzp :{text:`${texts.zakaz}`,callback_data:'fzp'},
     flivevar :{text:`${texts.livevar}`,callback_data:'flivevar'},
-    fpered :{text:`${texts.peredconsalt}`,callback_data:'fpered'},
-    fzav:{text:`${texts.zavvclinic}`,callback_data:'fzavvclinic'},
+    fpered :{text:`${texts.peredconsalt}`,URL:'https://docs.google.com/document/d/1phMwYpsvFIShd8Tb7Bpm5bKS5YelAMEP2310kFMA4G4/edit?tab=t.0'},
+    //fzav:{text:`${texts.zavvclinic}`,callback_data:'fzavvclinic'},
 },
 fp_pod_back:{
     back_fp_pod: {text:`${texts.back}`,callback_data:'fppod'},
