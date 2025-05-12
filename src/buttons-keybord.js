@@ -95,11 +95,11 @@ lp_b:{
 },
 lp_pod:{
     lsxema :{text:`${texts.sxem}`,callback_data:'lsxema'},
-    ldieta :{text:`${texts.dieta}`,callback_data:'ldieta'},
+    ldieta :{text:`${texts.dieta}`,url:'https://docs.google.com/spreadsheets/d/104i0tnFild9R07irvBcKOfOoxpb4D5EoSe3EfnsK_LY/edit?gid=1492944754#gid=1492944754'},
     lzp :{text:`${texts.zakaz}`,callback_data:'lzp'},
     llivevar :{text:`${texts.livevar}`,callback_data:'llivevar'},
-    lpered :{text:`${texts.peredconsalt}`,callback_data:'lpered'},
-    lzavclinic:{text:`${texts.zavvclinic}`,callback_data:'lzavclinic'},
+    lpered :{text:`${texts.peredconsalt}`,url:'https://docs.google.com/document/d/1phMwYpsvFIShd8Tb7Bpm5bKS5YelAMEP2310kFMA4G4/edit?tab=t.0'},
+    //lzavclinic:{text:`${texts.zavvclinic}`,callback_data:'lzavclinic'},
 },
 lp_pod_back:{
     back_lp_pod: {text:`${texts.back}`,callback_data:'lppod'},

@@ -99,7 +99,7 @@ lp_pod:[
   //[kb.lp_pod.lzp],
   [kb.lp_pod.llivevar],
   [kb.lp_pod.lpered],
-  [kb.lp_pod.lzavclinic],
+  //[kb.lp_pod.lzavclinic],
   [kb.lp_b.back_lp]
 ],
 lp_pod_back:[
